@@ -3,7 +3,7 @@
 if (isset($_POST['submit'])) {
 
   // Handle Image Upload
-  $targetDir = "http://localhost/rs/rs_mastermaster/data_dokter/uploads/";
+  $targetDir = "uploads/";
   $randomFileName = 'DK_' . rand(1000, 9999) . '.' . pathinfo($_FILES["fileImage"]["name"], PATHINFO_EXTENSION);
   $targetFile = $targetDir . $randomFileName;
   $uploadOk = 1;
