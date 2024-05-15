@@ -14,13 +14,13 @@ if (isset($_POST['logIn'])) {
     $sum = 0;
   }
 
-  if (sum > 0) {
+  if ($sum > 0) {
     $row = mysqli_fetch_assoc($show);
     $_SESSION['userName'] = $row['username'];
     $_SESSION['passWord'] = $row['passkey'];
     $_SESSION['userLevel'] = $row['userlevel'];
 
-    header("location : ". $theHOME ."/index.php");
+    header("Location: ". $theHOME ."/index.php");
   } else {
     echo "<script>alert('Username atau password anda salah. Silahkan coba lagi!')</script>";
   }
@@ -83,7 +83,7 @@ if (isset($_POST['logIn'])) {
                 </footer>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
+        <script src="<?=$theHOME;?>/library/js/bootstrap.bundle.min.js"></script>
+        <script src="<?=$theHOME;?>/library/js/scripts.js"></script>
     </body>
 </html>
