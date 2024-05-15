@@ -1,5 +1,5 @@
 <?php
-require("connection.php");
+require '../connection.php';
 
 $id = $_GET['no_rm'];
 

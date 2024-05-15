@@ -1,4 +1,4 @@
-<?php require("connection.php");
+<?php require '../connection.php';
 
 // Check if form was submitted
 if(isset($_POST["update"])) {
