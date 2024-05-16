@@ -10,8 +10,8 @@
             <div class="row mb-3">
               <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
-                  <input class="form-control" name="kd_dokter" id="inputFirstName" type="text" placeholder="Kode Dokter" maxlength="4" pattern="D[0-9]{3}" autocomplete="off" required />
-                  <label for="inputFirstName">Kode Dokter</label>
+                  <input class="form-control" name="kd_dokter" id="kdDokter" type="text" placeholder="Kode Dokter" maxlength="4" pattern="D[0-9]{3}" autocomplete="off" required />
+                  <label for="kdDokter">Kode Dokter</label>
                   <div class="invalid-feedback">
                     Contoh Format : D012
                   </div>
@@ -19,8 +19,8 @@
               </div>
               <div class="col-md-8">
                 <div class="form-floating">
-                  <input class="form-control" name="spesialis" id="inputLastName" type="text" placeholder="Spesialisasi Dokter" maxlength="25" autocomplete="off" required />
-                  <label for="inputLastName">Spesialisasi</label>
+                  <input class="form-control" name="spesialis" id="sps" type="text" placeholder="Spesialisasi Dokter" maxlength="25" autocomplete="off" required />
+                  <label for="sps">Spesialisasi</label>
                   <div class="invalid-feedback">
                     Wajib diisi!
                   </div>
@@ -28,8 +28,8 @@
               </div>
             </div>
             <div class="form-floating mb-3">
-              <input class="form-control" name="nm_dokter" id="inputEmail" type="text" placeholder="Nama Dokter" maxlength="30" autocomplete="off" required />
-              <label for="inputEmail">Nama Dokter</label>
+              <input class="form-control" name="nm_dokter" id="nmDokter" type="text" placeholder="Nama Dokter" maxlength="30" autocomplete="off" required />
+              <label for="nmDokter">Nama Dokter</label>
               <div class="invalid-feedback">
                 Wajib diisi!
               </div>
